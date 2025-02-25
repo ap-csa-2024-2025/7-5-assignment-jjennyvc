@@ -14,6 +14,14 @@ public class Main
    */
   public static void sortAndPrintDescending(String[] arr)
   {
+    int minIndex = i;
+    for (int j = i; j < element.length; j++)
+    {
+      if (elements[j] < elements[minIndex])
+      {
+        minIndex = j;
+      }
+    }
     System.out.println("Implement me!");
   }
 
