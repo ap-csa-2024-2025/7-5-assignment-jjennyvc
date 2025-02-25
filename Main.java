@@ -22,6 +22,11 @@ public class Main
         minIndex = j;
       }
     }
+
+    if ( i != minIndex)
+    {
+      elements[i] = elements[minIndex];
+    }
     System.out.println("Implement me!");
   }
 
